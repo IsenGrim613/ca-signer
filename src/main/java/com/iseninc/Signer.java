@@ -1,4 +1,4 @@
-package com.treeboxsolutions.utilities;
+package com.iseninc;
 
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.x500.X500Name;
@@ -27,8 +27,8 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.Date;
 
-import static com.treeboxsolutions.utilities.Preconditions.checkNotNullOrEmpty;
-import static com.treeboxsolutions.utilities.Preconditions.isNullOrEmpty;
+import static com.iseninc.Utils.checkNotNullOrEmpty;
+import static com.iseninc.Utils.isNullOrEmpty;
 
 public class Signer {
     private KeyStore mKeyStore;
